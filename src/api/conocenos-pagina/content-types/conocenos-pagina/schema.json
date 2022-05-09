@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "conocenos_paginas",
+  "info": {
+    "singularName": "conocenos-pagina",
+    "pluralName": "conocenos-paginas",
+    "displayName": "conocenos-pagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textoIntroductorio": {
+      "type": "text"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

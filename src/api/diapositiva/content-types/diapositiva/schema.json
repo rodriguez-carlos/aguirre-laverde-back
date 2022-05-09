@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diapositivas",
+  "info": {
+    "singularName": "diapositiva",
+    "pluralName": "diapositivas",
+    "displayName": "diapositiva-carrusel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "boton": {
+      "type": "string"
+    },
+    "rutaBoton": {
+      "type": "string"
+    },
+    "imagenFondo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagenTexto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

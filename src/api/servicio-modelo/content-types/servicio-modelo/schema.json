@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicio_modelos",
+  "info": {
+    "singularName": "servicio-modelo",
+    "pluralName": "servicio-modelos",
+    "displayName": "servicio-modelo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

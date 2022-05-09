@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "que_hacemos_paginas",
+  "info": {
+    "singularName": "que-hacemos-pagina",
+    "pluralName": "que-hacemos-paginas",
+    "displayName": "que-hacemos-pagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textoIntroductorio": {
+      "type": "text"
+    }
+  }
+}
