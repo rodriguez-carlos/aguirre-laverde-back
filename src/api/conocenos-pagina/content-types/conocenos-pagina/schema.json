@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "textoIntroductorio": {
-      "type": "text"
-    },
     "imagen": {
       "type": "media",
       "multiple": false,
