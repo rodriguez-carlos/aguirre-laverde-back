@@ -4,15 +4,22 @@
   "info": {
     "singularName": "que-hacemos-pagina",
     "pluralName": "que-hacemos-paginas",
-    "displayName": "que-hacemos-pagina"
+    "displayName": "que-hacemos-pagina",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "textoIntroductorio": {
-      "type": "text"
+    "parrafos": {
+      "type": "dynamiczone",
+      "components": [
+        "texto.parrafo"
+      ]
+    },
+    "titulo": {
+      "type": "string"
     }
   }
 }

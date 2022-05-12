@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_texto_parrafos",
+  "info": {
+    "displayName": "Parrafo",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "text"
+    }
+  }
+}
