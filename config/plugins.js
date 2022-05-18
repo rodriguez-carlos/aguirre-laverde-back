@@ -13,4 +13,33 @@ module.exports = ({ env }) => ({
         },
       },
     },
-  });
+    email: {
+      config: {
+        provider: 'mailgun',
+        providerOptions: {
+          apiKey: env('MAILGUN_KEY'),
+          domain: env('MAILGUN_DOMAIN')
+        },
+        settings: {
+          defaultFrom: 'info@aguirrelaverde.com',
+          defaultReplyTo: 'info@aguirrelaverde.com',
+        },
+      },
+    },
+    ezforms:{
+      config:{
+        captchaProvider: {
+          name: 'none'
+        },
+        notificationProviders: [
+          {
+            name: 'email',
+            enabled: true,
+            config: {
+              from: 'info@aguirrelaverde.com'
+            }
+          }
+        ]
+      }
+    }
+    });

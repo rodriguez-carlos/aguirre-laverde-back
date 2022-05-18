@@ -12,11 +12,13 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.9",
     "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/provider-email-mailgun": "^4.1.11",
     "@strapi/provider-upload-cloudinary": "^4.1.10",
     "@strapi/strapi": "4.1.9",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-plugin-ezforms": "^0.0.7"
   },
   "author": {
     "name": "A Strapi developer"
